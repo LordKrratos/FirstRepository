@@ -49,7 +49,4 @@ public class Student {
     /**
      * @param DoB the DoB to set
      */
-    public void setDoB(String DoB) {
-        this.DoB = DoB;
-    }
 }
