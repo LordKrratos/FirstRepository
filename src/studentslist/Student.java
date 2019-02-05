@@ -49,8 +49,12 @@ public class Student {
     /**
      * @param DoB the DoB to set
      */
-
-    //the DoB setter has been removed.
-
+    public void setDoB(String DoB) {
+        this.DoB = DoB;
+    }
+    
+    public String toString(){
+        return "Student";
+    }
 }
  
